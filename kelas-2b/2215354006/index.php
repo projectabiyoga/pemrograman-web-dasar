@@ -106,7 +106,7 @@
     <p> <a name="contact">Senja Ghautama</a> </p>
     <p>For more about me you can follow me on:</p>
     <div class="social">
-      <a href="twitter.html"><i class="fab fa-twitter"></i></a>
+      <a href="twitter.php"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/ghtma.a"><i class="fab fa-instagram"></i></a>
       <a href="https://www.youtube.com/channel/UCyYahExN3_r3rfSi0N45Jhg"><i class="fab fa-youtube"></i></a>
     </div>

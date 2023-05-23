@@ -1,0 +1,36 @@
+version: "3"
+services:
+  nginx:
+    build: nginx
+    ports:
+      - "80:80"
+    networks:
+      - internal
+    volumes: &shared_volume
+      - ./.:/var/www/html/
+  php:
+    build: .
+    networks:
+      - internal
+    volumes: *shared_volume
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: database
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    
+    networks:
+      - internal
+  phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: secret
+    networks:
+      - internal
+networks:
+  internal:
+    driver: bridge

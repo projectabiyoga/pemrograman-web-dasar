@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Latihan</title>
+    </head>
+    <body>
+        <table>
+        <tr>
+            <td>Nama</td>
+            <td></td>
+            <td>Komang Bagus Sadewa Netra</td>
+        </tr>
+        <br>
+        <tr>
+            <td>NIM</td>
+            <td></td>
+            <td>2215354046</td>
+        </tr>
+        </table>
+    </body>
+</html>

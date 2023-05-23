@@ -21,6 +21,11 @@
             <td>:</td>
             <td>2B</td>
         </tr>
+        <tr>
+            <td>Asal</td>
+            <td>:</td>
+            <td>Jimbaran</td>
+        </tr>
     </table>
 </body>
 </html>

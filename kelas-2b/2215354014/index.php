@@ -3,7 +3,7 @@
     <title> latihan 1</title>
 </head>
 <body>
-    <b>Tabel dan Gambar di HTML</b>
+    <b>Tabel dan Gambar di HTML dayu mirah</b>
     <hr/>
     <b>Membuat Tabel</b> <!-- Cara buat tabel -->
     <br/>

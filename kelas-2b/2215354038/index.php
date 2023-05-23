@@ -3,7 +3,7 @@
     <title>tes</title>
 </head>
 <body>
-    ======== hello world =========
+    ======== hitung berat badan =========
     <form action="Program.php" name="formInput" method="post">
         <table>
             <tr>
